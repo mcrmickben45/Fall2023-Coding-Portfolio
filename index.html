@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Portfolio</title>
+    <title>McCormick, B: Portfolio</title>
 </head>
 <body>
     <header>
         <nav>
+            <!-- Implements portfolio photo & name; Defines CSS classes -->
             <img class="portfolio-photo" src="./assets/images/ben-mccormick.jpeg" alt="Ben McCormick Portfolio Photo">
             <h1 class="name">Ben McCormick</h1>
-            <ul>
-                <li><a href="#About-Me">About Me</a></li>
-                <li><a href="#Work">Work</a></li>
-                <li><a href="#Resume">Resume</a></li>
-                <li><a href="#Contact-Me">Contact Me</a></li>
-            </ul>
+            <!-- Lists & lists website sections by subheader -->
+                <ul>
+                    <li><a href="#About-Me">About Me</a></li>
+                    <li><a href="#Work">Work</a></li>
+                    <li><a href="#Resume">Resume</a></li>
+                    <li><a href="#Contact-Me">Contact Me</a></li>
+                </ul>
         </nav>
     </header>
 
-    <section id="About-Me">
-    <div class="container">
+    <!-- Assigns classes and implements "About Me" section-->
+    <section id="About-Me" class="container">
         <h2>About Me</h2>
         <p>
             My name is Ben McCormick. I was born and raised in Bucks County,
@@ -36,59 +38,60 @@
             enrolled for a Fullstack Coding Bootcamp via Edx as of July 2023, in hopes of
             furthering my professional and academic endeavors in hopes of merging my original
             studies with the benefits of coding.</p>
-    </div>
     </section>
 
-    <div class="large-portfolio-example">
+    <!-- Implements code for highlighted project -->
+    <section class="large-portfolio-example">
+        <!-- Hyperlinks Image -->
         <img src="./assets/images/Videogame-Vixens.png" alt="Large Example">
-        <div class="large-example-label">Videogame Vixens</div>
-    </div>
+        <!-- Assigns CSS to portfolio example labels -->
+        <article class="large-example-label">Videogame Vixens</article>
+    </section>
 
-    <section id="Work">
-    <div class="container">
+    <!-- Section defines additional examples of work -->
+    <section class="container">
         <h2>Work</h2>
         <div class="portfolio-examples">
-            <div class="portfolio-example">
+            <article class="portfolio-example">
                 <a href="https://mcrmickben45.github.io/code-refractor/"><img src="./assets/images/Horiseon.png" alt="Horiseon Image"></a>
-                <div class="example-label">Horiseon Code Refractor</div>
-            </div>
-            <div class="portfolio-example">
+                <article class="example-label">Horiseon Code Refractor</article>
+            </article>
+            <article class="portfolio-example">
                 <a href="https://mcrmickben45.github.io/quiz-for-coders/"><img src="./assets/images/Coding-Quiz.png" alt="Coding Quiz"></a>
-                <div class="example-label">Quiz for Coders</div>
-            </div>
-            <div class="portfolio-example">
+                <article class="example-label">Quiz for Coders</article>
+            </article>
+            <article class="portfolio-example">
                 <a href="https://mcrmickben45.github.io/magic-password-constructor/"><img src="./assets/images/Password-Generator.png" alt="Password Generator"></a>
-                <div class="example-label">Password Generator</div>
-            </div>
-            <div class="portfolio-example">
+                <article class="example-label">Password Generator</article>
+            </article>
+            <article class="portfolio-example">
                 <a href="/"><img src="./assets/images/pastel-puzzle.jpeg" alt="TBD Image"></a>
-                <div class="example-label">Upcoming...</div>
-            </div>
-    </div>
+                <article class="example-label">Upcoming...</article>
+            </article>
     </section>
 
-    <section id="Resume">
-    <div class="container">
+    <!-- Resume -->
+    <section class="container">
         <h2>Resume</h2>
+            <!-- Embeds live resume via google docs -->
             <div class="google-docs-embed">
             <iframe src="https://docs.google.com/document/d/e/2PACX-1vQviW5Uz5-0C8pJcBhvvRlGfElz0T5h4SYqXW7eQKWn-wbGNlw2XUMtj_XGvX8j0Q/pub?embedded=true"></iframe>
             </div>
-    </div>
     </section>
 
+    <!-- Formats contact information within footer -->
     <footer>
-    <section id="Contact-Me">
-    <div class="container">
         <h2>Contact Me</h2>
         <ul>
             <li><a href="2676142109">(267) 614-2109</a></li>
+            <!-- Added "mailto: to redirect to email"-->
             <li><a href=mailto:“mccormickben45@gmail.com”>McCormickBen45@gmail.com</a></li>
             <li><a href="https://github.com/mcrmickben45" target="_blank">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/benmcrmick/" target="_blank">LinkedIn</a></li>
             <li><a href="https://open.spotify.com/artist/0bdfiayQAKewqEvaU6rXCv" target="_blank">Spotify</a></li>
         </ul>
-    </div>
-    </section>
     </footer>
 </body>
 </html>
+
+<!-- End of portfolio -->

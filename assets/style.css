@@ -7,8 +7,10 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     background-color: rgb(215, 219, 223);
+    
 }
 
+/* Container element defines width of ids */
 .container {
     max-width: 960px;
     margin: 0 auto;
@@ -65,6 +67,7 @@ section {
     color: rgb(215, 219, 223);
 }
 
+/* large-portfolio define elements of highlighted work's image and label */
 .large-portfolio-example {
     width: 50%;
     margin: 0 auto;
@@ -84,23 +87,27 @@ section {
     font-size: 16px;
 }
 
+/* portfolio-examples define layout spacing between works */
 .portfolio-examples {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
+/* Defines sizing of example works portfolio-example class */
 .portfolio-example {
     width: 48%; 
     margin-bottom: 20px;
     position: relative;
 }
 
+/* Controls all image sizing under portfolio-example img class */
 .portfolio-example img {
     max-width: 100%;
     height: auto;
 }
 
+/* Defines label elements for all remaining works for classes under example-label */
 .example-label {
     position: absolute;
     top: 10px;
@@ -112,6 +119,7 @@ section {
     font-size: 12px;
 }
 
+/* google-docs-embed positions live resume */
 .google-docs-embed {
     display: flex;
     justify-content: center;
@@ -119,6 +127,7 @@ section {
     height: 100vh;
 }
 
+/* Sizes live resume */
 .google-docs-embed iframe {
     width: 100%;
     max-width: 1000px;
@@ -126,6 +135,7 @@ section {
     border: none;
 }
 
+/* Formats footer header and element background */
 footer {
     text-align: center;
     padding: 10px;
@@ -133,6 +143,7 @@ footer {
     color: rgb(215, 219, 223);
 }
 
+/* Formats contact information within footer */
 footer ul {
     list-style: none; 
     display: flex;
@@ -142,6 +153,7 @@ footer ul {
     border-radius: 10px;
 }
 
+/* Positions margins for contacts */
 footer ul li {
     margin: 0 10px;
 }
