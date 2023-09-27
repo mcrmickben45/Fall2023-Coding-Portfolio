@@ -1,10 +1,8 @@
-/* Reset some default styles */
 * {
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Base styles */
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -17,7 +15,6 @@ body {
     padding: 20px;
 }
 
-/* Header styles */
 header {
     background-image: url(https://thumbs.dreamstime.com/b/modern-dark-brick-wall-pattern-decorative-stone-wall-background-surface-black-wall-texture-modern-dark-brick-wall-pattern-174545981.jpg);
     padding: 10px;
@@ -28,6 +25,7 @@ header {
     width: 120px;
     height: 120px;
     margin-right: 0px;
+    border-radius: 10px;
 }
 
 nav ul {
@@ -46,7 +44,7 @@ nav .name {
 nav ul li {
     display: inline;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
 
 nav ul li a {
@@ -55,10 +53,16 @@ nav ul li a {
     background-blend-mode: color-burn;
     text-decoration:underline;
     text-align: center;
+    border-radius: 1px;
 }
 
 section {
     padding: 40px 0;
+}
+
+.h2 {
+    background-color:#221b1b;
+    color: rgb(215, 219, 223);
 }
 
 .large-portfolio-example {
@@ -73,8 +77,8 @@ section {
 }
 
 .large-example-label {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
+    background-color: #221b1b;
+    color: rgb(215, 219, 223);
     padding: 10px 20px;
     border-radius: 10px;
     font-size: 16px;
@@ -87,7 +91,7 @@ section {
 }
 
 .portfolio-example {
-    width: 48%; /* 48% to allow for a small gap between the examples */
+    width: 48%; 
     margin-bottom: 20px;
     position: relative;
 }
@@ -101,9 +105,51 @@ section {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
+    background-color:rgb(215, 219, 223);
+    color: #221b1b;
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 12px;
+}
+
+.google-docs-embed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.google-docs-embed iframe {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-image: url(https://thumbs.dreamstime.com/b/modern-dark-brick-wall-pattern-decorative-stone-wall-background-surface-black-wall-texture-modern-dark-brick-wall-pattern-174545981.jpg);
+    color: rgb(215, 219, 223);
+}
+
+footer ul {
+    list-style: none; 
+    display: flex;
+    justify-content: center; 
+    padding: 0;
+    background-color: rgb(215, 219, 223);
+    border-radius: 10px;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li:first-child {
+    margin-left: 0; 
+}
+
+footer ul li:last-child {
+    margin-right: 0; 
 }
