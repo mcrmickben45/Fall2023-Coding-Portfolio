@@ -31,10 +31,9 @@ This Professional Portfolio was created by Ben McCormick under the instruction o
 
 ## Website
 https://mcrmickben45.github.io/mccormick-professional-coding-portfolio/
-
-![Image 1](Images/portfolio1.png)
-![Image 2](Images/portfolio2.png)
-![Image 2](Images/portfolio3.png)
-![Image 2](Images/portfolio4.png)
+<img width="1432" alt="portfolio1" src="https://github.com/mcrmickben45/mccormick-professional-coding-portfolio/assets/137113252/1c753e77-516a-44b0-a223-e50be6b694e6">
+<img width="1431" alt="portfolio2" src="https://github.com/mcrmickben45/mccormick-professional-coding-portfolio/assets/137113252/95071a01-ac4a-4b50-88cc-3269adf75d14">
+<img width="1431" alt="portfolio3" src="https://github.com/mcrmickben45/mccormick-professional-coding-portfolio/assets/137113252/2d11ad00-f206-46f0-8e35-75b4e7459764">
+<img width="1437" alt="portfolio4" src="https://github.com/mcrmickben45/mccormick-professional-coding-portfolio/assets/137113252/d2505337-c5cc-4967-a150-78839f471924">
 
 ## License
