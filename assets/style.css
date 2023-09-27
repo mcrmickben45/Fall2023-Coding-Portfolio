@@ -12,7 +12,8 @@ body {
 
 /* Container element defines width of ids */
 .container {
-    max-width: 960px;
+    width: 100%;
+    max-width: 960px; 
     margin: 0 auto;
     padding: 20px;
 }
@@ -125,6 +126,7 @@ section {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden;
 }
 
 /* Sizes live resume */
@@ -151,6 +153,7 @@ footer ul {
     padding: 0;
     background-color: rgb(215, 219, 223);
     border-radius: 10px;
+    max-width: 100%;
 }
 
 /* Positions margins for contacts */
