@@ -32,9 +32,9 @@ This Professional Portfolio was created by Ben McCormick under the instruction o
 ## Website
 https://mcrmickben45.github.io/mccormick-professional-coding-portfolio/
 
-![Image 1](Images/Password-Generator-1.png)
-![Image 2](Images/Password-Generator-2.png)
-![Image 2](Images/Password-Generator-3.png)
-![Image 2](Images/Password-Generator-4.png)
+![Image 1](Images/portfolio1.png)
+![Image 2](Images/portfolio2.png)
+![Image 2](Images/portfolio3.png)
+![Image 2](Images/portfolio4.png)
 
 ## License
